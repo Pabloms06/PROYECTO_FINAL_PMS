@@ -137,6 +137,7 @@
         android:layout_height="wrap_content"
         android:text="Rap"
         app:layout_constraintEnd_toStartOf="@+id/radioButton10"
+        app:layout_constraintHorizontal_bias="0.266"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton6" />
 
@@ -144,7 +145,7 @@
         android:id="@+id/radioButton10"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginEnd="108dp"
+        android:layout_marginEnd="184dp"
         android:text="Indi"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton7" />
@@ -158,4 +159,15 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/radioButton9" />
+
+    <RadioButton
+        android:id="@+id/radioButton11"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="72dp"
+        android:text="Reggaeton"
+        app:layout_constraintBottom_toTopOf="@+id/buscar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.891"
+        app:layout_constraintStart_toEndOf="@+id/radioButton10" />
 </androidx.constraintlayout.widget.ConstraintLayout>
